@@ -1,0 +1,36 @@
+Project Overview: Ticket-Cart
+The Ticket-Cart project is a React-based web application that allows users to browse events, add tickets to their cart, and proceed to checkout. It also includes an order confirmation system.
+
+Project Structure
+
+1. Public Folder
+logo512.png: The application’s logo.
+manifest.json: Defines the web app's metadata for Progressive Web Apps (PWAs).
+remove-icon.jpg: An icon used for the "Remove" button in the cart.
+robots.txt: Helps manage how search engines index the site.
+
+2. Src Folder
+
+A. Components (Reusable UI elements)
+CartItem.jsx: Represents an individual item in the cart.
+CartItem.css: Styles for the cart item component.
+
+B. Context (State Management)
+CartContext.jsx: Manages the global cart state, allowing items to be added, removed, and checked out.
+
+C. Pages (Main Pages of the Application)
+Cart.jsx: Displays the cart items and the checkout button.
+Cart.css: Styles for the cart page.
+Confirmation.jsx: Displays an order confirmation message after checkout.
+Confirmation.css: Styles for the confirmation page.
+
+D. Core Files
+App.jsx: The main component that sets up routing and provides global context.
+App.css: Styles for the overall app.
+index.jsx: The entry point of the React application.
+
+3. Other Files
+.gitignore: Specifies files that should be ignored in version control.
+package.json: Contains project dependencies and configuration.
+package-lock.json: Locks dependency versions to ensure consistency.
+README.md: Documentation for the project.
